@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
+import time
 
 # -----------------------------
 # Helper functions
@@ -142,8 +142,13 @@ def main():
     np.random.seed(0)
 
     dim = 2
-
-    # Task A and B patterns (orthogonal)
+    t0 = time.perf_counter()
+    # run whole sim
+    t1 = time.perf_counter()
+    elapsed = t1 - t0
+    print(f"\nWall time: {elapsed:.6f} s")
+    
+# Task A and B patterns (orthogonal)
     pattern_A = np.array([1.0, 0.0])
     pattern_B = np.array([0.0, 1.0])
 

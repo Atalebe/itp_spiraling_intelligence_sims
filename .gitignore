@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+venv/
+.venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Outputs / generated artifacts
+*.png
+*.pdf
+*.log
+*.tmp
+
+# Data outputs (keep only if intentionally versioned)
+# If you DO want results CSVs tracked, comment these two lines out.
+# cost_benchmark_results*.csv
+
+# Local notes
+notes.txt
+scratch/
